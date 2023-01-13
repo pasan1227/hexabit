@@ -1,8 +1,9 @@
 import React from 'react'
+import './podcast.css'
 
 const Podcast = () => {
   return (
-    <section id='podcast'>Podcast</section>
+    <section className='podcast-container' id='podcast'>Podcast</section>
   )
 }
 

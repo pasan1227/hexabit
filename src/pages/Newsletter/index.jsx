@@ -1,8 +1,9 @@
 import React from 'react'
+import './newsletter.css'
 
 const Newsletter = () => {
   return (
-    <section id='newsletter'>Newsletter</section>
+    <section className='newsletter-container' id='newsletter'>Newsletter</section>
   )
 }
 

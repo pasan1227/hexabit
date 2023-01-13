@@ -1,8 +1,9 @@
 import React from 'react'
+import './grow.css'
 
 const Grow = () => {
   return (
-    <section id='grow'>Grow</section>
+    <section className='grow-container' id='grow'>Grow</section>
   )
 }
 
