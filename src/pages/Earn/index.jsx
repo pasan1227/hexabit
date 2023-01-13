@@ -3,7 +3,10 @@ import './earn.css'
 
 const Earn = () => {
   return (
-    <section className='earn-container' id='earn'>Earn</section>
+    <section className='earn-container' id='earn'>
+      <div className="left">left</div>
+      <div className="right">right</div>
+    </section>
   )
 }
 

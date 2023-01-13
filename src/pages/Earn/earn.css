@@ -1,7 +1,22 @@
-.earn-container{
+.earn-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+}
+
+.left {
+  flex: 1;
+  background-color: black;
   height: 100vh;
+  color: white;
+}
+.right {
+  flex: 1;
+  height: 100vh;
+  background-color: yellow;
+}
+
+@media (max-width: 768px) {
+  .earn-container {
+    flex-direction: column;
+    height: 100vh;
+  }
 }

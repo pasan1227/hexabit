@@ -22,7 +22,6 @@ const Navbar = () => {
           <li>
             <Link
               className="navbar-logo"
-              activeClass="active"
               to='home'
               spy={true}
               smooth={true}
@@ -39,7 +38,7 @@ const Navbar = () => {
                 to={link.link}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-60}
                 duration={500}
                 onClick={() => setIsOpen(false)}
               >
