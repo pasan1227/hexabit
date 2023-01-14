@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Earn from "./pages/Earn";
+import Newsletter from "./pages/Newsletter"
 import Footer from "./pages/Footer";
 import Grow from "./pages/Grow";
 import Home from "./pages/Home";
 import Media from "./pages/Media";
 import Chain from './pages/Chain';
 import Xplor from './pages/Xplor';
-import Newsletter from './pages/Newsletter';
 import Podcast from './pages/Podcast';
 
 function App() {
