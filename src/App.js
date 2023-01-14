@@ -5,13 +5,13 @@ import Footer from "./pages/Footer";
 import Grow from "./pages/Grow";
 import Home from "./pages/Home";
 import Media from "./pages/Media";
-import Newsletter from "./pages/Newsletter";
-import Podcast from "./pages/Podcast";
+import Chain from './pages/Chain';
+import Newsletter from './pages/Newsletter';
+import Podcast from './pages/Podcast';
 
 function App() {
-
   return (
-    <div className="App">
+    <div className='App'>
       <header>
         <Navbar />
       </header>
@@ -19,6 +19,7 @@ function App() {
         <Home />
         <Grow />
         <Media />
+        <Chain />
         <Earn />
         <Newsletter />
         <Podcast />
