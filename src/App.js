@@ -6,6 +6,7 @@ import Grow from "./pages/Grow";
 import Home from "./pages/Home";
 import Media from "./pages/Media";
 import Chain from './pages/Chain';
+import Xplor from './pages/Xplor';
 import Newsletter from './pages/Newsletter';
 import Podcast from './pages/Podcast';
 
@@ -20,6 +21,7 @@ function App() {
         <Grow />
         <Media />
         <Chain />
+        <Xplor />
         <Earn />
         <Newsletter />
         <Podcast />
