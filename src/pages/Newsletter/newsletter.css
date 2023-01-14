@@ -25,7 +25,6 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 350px;
-
 }
 
 .col-3 {
@@ -34,7 +33,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: right;
-
 }
 
 .content {
@@ -71,4 +69,83 @@
   position: relative;
   width: 800px;
   bottom: 300px;
+}
+
+@media (max-width: 768px) {
+  .newsletter-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .col-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    height: 33%;
+    background-color: aqua;
+    flex: 1;
+    display: flex;
+  }
+
+  .col-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 33%;
+    background-color: blueviolet;
+    display: flex;
+  }
+
+  .col-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    background-color: yellow;
+    height: 33%;
+    display: flex;
+  }
+
+  .content {
+    color: white;
+    gap: 10px;
+  }
+
+  .content h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 10px;
+  }
+
+  .image-left-top {
+    position: relative;
+    width: 200px;
+  }
+
+  .image-left-bottom {
+    width: 200px;
+    position: absolute;
+  }
+
+  .image-right-top {
+    position: relative;
+    width: 200px;
+  }
+
+  .image-right-bottom {
+    position: relative;
+    width: 200px;
+  }
 }
