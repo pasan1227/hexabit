@@ -91,4 +91,33 @@
     flex-direction: column;
     height: 100vh;
   }
+
+  .image-center {
+    position: relative;
+    width: 220px;
+    top: -40px;
+    z-index: 3;
+  }
+
+  .image-left {
+    position: relative;
+    width: 150px;
+    top: 5px;
+    right: 100px;
+    opacity: 40%;
+    z-index: 2;
+  }
+
+  .image-right {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    bottom: 210px;
+    opacity: 40%;
+    z-index: 1;
+  }
+  .button {
+    position: relative;
+    top: 250px;
+  }
 }

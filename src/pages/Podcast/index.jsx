@@ -19,7 +19,9 @@ const Podcast = () => {
               WEB3 PODCAST
             </h1>
           </div>
-          <ButtonTwo text='BE A GUEST' icon='microphone-lines' />
+          <div className='button'>
+            <ButtonTwo text='BE A GUEST' icon='microphone-lines' />
+          </div>
         </div>
         <div className='podcast-left-bottom'>
           <div className='image-left'>
@@ -35,11 +37,11 @@ const Podcast = () => {
           </div>
         </div>
       </div>
-      <div className="podcast-right">
+      <div className='podcast-right'>
         <div className='youtube'>
-        <Youtube embedId='K4TOrB7at0Y'/>
+          <Youtube embedId='K4TOrB7at0Y' />
         </div>
-        <ButtonTwo text='SUBSCRIBE' icon='youtube'/>
+        <ButtonTwo className='button' text='SUBSCRIBE' icon='youtube' />
       </div>
     </section>
   );
