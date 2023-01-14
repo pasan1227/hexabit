@@ -60,6 +60,31 @@
   flex: 1;
   height: 100vh;
   background-color: yellow;
+=======
+  flex: 1;
+  background-color: #fff;
+}
+
+.podcast-right {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    13deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(203, 203, 203, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.youtube {
+  height: 70vh;
+  width: 75%;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
