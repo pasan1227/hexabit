@@ -1,0 +1,21 @@
+.step-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  gap: 10px;
+  text-align: center;
+  border: 1px solid #e02310;
+  border-radius: 8px;
+}
+
+.step-number{
+  color: #e02310;
+}
+
+.step-name{
+  font-size: 18px;
+}
+
+.step-icon{
+  font-size: 48px;
+}
