@@ -1,0 +1,15 @@
+.link-icon{
+  color: white;
+  padding: 5px;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
