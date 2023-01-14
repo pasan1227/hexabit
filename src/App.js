@@ -17,6 +17,7 @@ function App() {
       <main>
         <Home />
         <Grow />
+        <Grow />
         <Earn />
         <Newsletter />
         <Podcast />

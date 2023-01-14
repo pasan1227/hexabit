@@ -1,0 +1,22 @@
+.custom-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon{
+  /* background-color: white; */
+}
+
+.button-text {
+  margin-right: 8px;
+}
+
+.button-icon {
+  font-size: 20px;
+}
