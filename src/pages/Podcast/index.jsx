@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonTwo from '../../components/Button-2'
+import Youtube from '../../components/Youtube'
 import './podcast.css'
 
 const Podcast = () => {
@@ -17,7 +18,12 @@ const Podcast = () => {
         </div>
         <div className='podcast-left-bottom'>bottom</div>
       </div>
-      <div className="podcast-right">right</div>
+      <div className="podcast-right">
+        <div className='youtube'>
+        <Youtube embedId='K4TOrB7at0Y'/>
+        </div>
+        <ButtonTwo text='SUBSCRIBE' icon='youtube'/>
+      </div>
     </section>
   )
 }
