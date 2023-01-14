@@ -10,8 +10,12 @@
   flex: 1;
   height: 100vh;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   margin-top: 100px;
+}
+
+.strategy-left p {
+  font-size: 25px;
 }
 
 .heading {
@@ -52,6 +56,10 @@
     margin-top: 65px;
     margin-bottom: 65px;
   }
+
+  .strategy-left p {
+  font-size: 20px;
+}
 
   .strategy-right {
     flex: 1;

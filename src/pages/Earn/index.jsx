@@ -7,8 +7,8 @@ import './earn.css'
 const Earn = () => {
   return (
     <section className='earn-container' id='earn'>
-      <div className="left-side">
-        <div className="left-top">
+      <div className='left-side'>
+        <div className='left-top'>
           <h1>START EARNING</h1>
           <p>
             A remote workplace and a growing <br />
@@ -16,16 +16,17 @@ const Earn = () => {
           </p>
           <ButtonTwo text='APPLY NOW' icon='less-than' />
         </div>
-        <div className="left-bottom">
-          <img src={globe} alt="" />
+        <div className='left-bottom'>
+          <img src={globe} alt='' />
         </div>
       </div>
-      <div className="right-side">
-        <div className="right-top">
-          <p className='heading'>ARE YOU ACTIVE <br />
+      <div className='right-side'>
+        <div className='right-top'>
+          <p className='heading'>
+            ARE YOU ACTIVE <br />
             ON SOCIAL MEDIA?
           </p>
-          <p>
+          <p className='description'>
             Start earning by joining our affiliate <br />
             program. You'll offer products and <br />
             services made by hexabit.
@@ -41,7 +42,7 @@ const Earn = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Earn
