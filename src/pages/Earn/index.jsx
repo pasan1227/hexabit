@@ -1,5 +1,6 @@
 import React from 'react'
 import globe from '../../assets/globe.svg'
+import ButtonTwo from '../../components/Button-2'
 import './earn.css'
 
 const Earn = () => {
@@ -12,9 +13,7 @@ const Earn = () => {
             A remote workplace and a growing <br />
             company is waiting for you.
           </p>
-          <button>
-            APPLY NOW
-          </button>
+          <ButtonTwo text='APPLY NOW'/>
         </div>
         <div className="left-bottom">
           <img src={globe} alt="" />
