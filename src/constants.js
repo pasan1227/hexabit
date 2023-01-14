@@ -1,3 +1,10 @@
+export const navLinks = [
+  { label: "GROW", link: "grow" },
+  { label: "EARN", link: "earn" },
+  { label: "NEWSLETTER", link: "newsletter" },
+  { label: "PODCAST", link: "podcast" },
+];
+
 export const communityLinks = [
   {
     id: 1,
