@@ -34,8 +34,8 @@ const Earn = () => {
         <div className="right-bottom">
           <div className="steps">
             <Step number='1' stepName='APPLY' icon='fa-regular fa-circle-check' />
-            <Step number='3' stepName='COLLAB' icon='fa-regular fa-circle-check' />
-            <Step number='2' stepName='EARN' icon='fa-regular fa-circle-check' />
+            <Step number='2' stepName='COLLAB' icon='fa-regular fa-circle-check' />
+            <Step number='3' stepName='EARN' icon='fa-regular fa-circle-check' />
           </div>
           <ButtonTwo text='APPLY NOW' icon='less-than' />
         </div>
