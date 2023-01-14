@@ -25,6 +25,42 @@
 }
 
 .podcast-left-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-center {
+  position: relative;
+  width: 400px;
+  top: 20px;
+  z-index: 3;
+}
+
+.image-left {
+  position: relative;
+  width: 300px;
+  top: 110px;
+  right: 280px;
+  opacity: 40%;
+  z-index: 2;
+}
+
+.image-right {
+  position: relative;
+  width: 300px;
+  left: 280px;
+  bottom: 280px;
+  opacity: 40%;
+  z-index: 1;
+}
+
+.podcast-right {
+  flex: 1;
+  height: 100vh;
+  background-color: yellow;
+=======
   flex: 1;
   background-color: #fff;
 }
