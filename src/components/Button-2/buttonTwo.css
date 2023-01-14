@@ -1,7 +1,6 @@
-.custom-button {
+.custom-button-two {
   display: flex;
   align-items: center;
-  padding-left: 8px;
   background-color: #e02310;
   color: white;
   border: none;
@@ -12,19 +11,20 @@
   border-bottom-right-radius: 8px;
 }
 
-.icon {
+.icon-two {
   background-color: white;
   color: #e02310;
-  padding: 8px;
+  padding: 8px 10px;
   /* border-radius: 8px; */
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.button-text {
-  margin-right: 8px;
+.button-text-two {
+  margin-right: 28px;
+  margin-left: 28px;
 }
 
-.button-icon {
+.button-icon-two {
   font-size: 20px;
 }
