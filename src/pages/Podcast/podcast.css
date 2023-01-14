@@ -2,14 +2,34 @@
   display: flex;
 }
 
-.left{
+.podcast-left{
+  display: flex;
+  flex-direction: column;
   flex: 1;
   background-color: black;
   height: 100vh;
   color: white;
-
 }
-.right{
+
+.podcast-left-top{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.podcast-left-top-content{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.podcast-left-bottom{
+  flex: 1;
+  background-color: #fff;
+}
+
+.podcast-right{
   flex: 1;
   height: 100vh;
   background-color: yellow;

@@ -13,7 +13,7 @@ const Earn = () => {
             A remote workplace and a growing <br />
             company is waiting for you.
           </p>
-          <ButtonTwo text='APPLY NOW'/>
+          <ButtonTwo text='APPLY NOW' icon='less-than'/>
         </div>
         <div className="left-bottom">
           <img src={globe} alt="" />
@@ -49,7 +49,7 @@ const Earn = () => {
             </div>
           </div>
           <div className='apply-btn'>
-            <button>APPLY NOW</button>
+          <ButtonTwo text='APPLY NOW' icon='less-than'/>
           </div>
         </div>
       </div>
