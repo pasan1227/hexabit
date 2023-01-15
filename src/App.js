@@ -23,11 +23,11 @@ function App() {
         <Chain />
         <Xplor />
         <Earn />
-        {/* <Newsletter /> */}
+        <Newsletter />
         <Podcast />
       </main>
       <footer>
-        <Footer />
+        {/* <Footer /> */}
       </footer>
     </div>
   );
