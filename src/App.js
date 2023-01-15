@@ -27,7 +27,7 @@ function App() {
         <Podcast />
       </main>
       <footer>
-        {/* <Footer /> */}
+        <Footer />
       </footer>
     </div>
   );
