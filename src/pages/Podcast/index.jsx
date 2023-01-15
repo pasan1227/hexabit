@@ -41,7 +41,7 @@ const Podcast = () => {
         <div className='youtube'>
           <Youtube  />
         </div>
-        <ButtonTwo className='button' text='SUBSCRIBE' icon='youtube' />
+        <ButtonTwo className='youtube-button' text='SUBSCRIBE' icon='youtube' />
       </div>
     </section>
   );

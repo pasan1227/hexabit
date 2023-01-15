@@ -83,7 +83,7 @@
 .youtube {
   height: 70vh;
   width: 75%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -119,5 +119,8 @@
   .button {
     position: relative;
     top: 250px;
+  }
+  .youtube{
+    height: 300px;
   }
 }
