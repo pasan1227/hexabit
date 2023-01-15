@@ -1,5 +1,5 @@
 import React from 'react'
-import globe from '../../assets/globe.svg'
+import globe from '../../assets/globe-cropped.svg';
 import ButtonTwo from '../../components/Button-2'
 import Step from '../../components/Step'
 import './earn.css'
@@ -14,7 +14,9 @@ const Earn = () => {
             A remote workplace and a growing <br />
             company is waiting for you.
           </p>
-          <ButtonTwo text='APPLY NOW' icon='less-than' />
+          <div className='apply-button-earn'>
+            <ButtonTwo text='APPLY NOW' icon='less-than' />
+          </div>
         </div>
         <div className='left-bottom'>
           <img src={globe} alt='' />
@@ -32,13 +34,27 @@ const Earn = () => {
             services made by hexabit.
           </p>
         </div>
-        <div className="right-bottom">
-          <div className="steps">
-            <Step number='1' stepName='APPLY' icon='fa-regular fa-circle-check' />
-            <Step number='2' stepName='COLLAB' icon='fa-regular fa-circle-check' />
-            <Step number='3' stepName='EARN' icon='fa-regular fa-circle-check' />
+        <div className='right-bottom'>
+          <div className='steps'>
+            <Step
+              number='1'
+              stepName='APPLY'
+              icon='fa-regular fa-circle-check'
+            />
+            <Step
+              number='2'
+              stepName='COLLAB'
+              icon='fa-regular fa-circle-check'
+            />
+            <Step
+              number='3'
+              stepName='EARN'
+              icon='fa-regular fa-circle-check'
+            />
           </div>
-          <ButtonTwo text='APPLY NOW' icon='less-than' />
+          <div className='apply-button-earn-two'>
+            <ButtonTwo text='APPLY NOW' icon='less-than' />
+          </div>
         </div>
       </div>
     </section>
