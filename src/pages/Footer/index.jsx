@@ -1,11 +1,11 @@
 import React from 'react'
-import { communityLinks, footerHeadings, founderLinks } from '../../constants'
 import Link from '../../components/Link'
+import { communityLinks, footerHeadings, founderLinks } from '../../constants'
 import './footer.css'
 
 const Footer = () => {
-  
-  
+
+
   return (
     <div className='footer-container'>
       <div className="footer-top">
@@ -50,7 +50,30 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom"></div>
+      <div className="footer-bottom">
+        <div className='footer-form-container'>
+          <div className='footer-form-content'>
+            <h2>CHARLIE'S MORNING BREW</h2>
+            <div className='footer-form'>
+              <form>
+                <input type="text" placeholder='ENTER YOUR EMAIL' />
+                <button>SIP THE BREW</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div className='footer-links'>
+              <a href="">FAQs</a>
+              <a href="">Chat with us</a>
+              <a href="">Terms and conditions</a>
+              <a href="">Privacy policy</a>
+              <a href="">Join our team</a>
+        </div>
+        <div className='footer-paragraph'>
+              <p>From Austin TX the new Sillicon Valley to the world </p>
+              <p>&copy;{new Date().getFullYear()} Hexabit Inc. All Rights Reserved.</p>
+        </div>
+      </div>
     </div>
   )
 }

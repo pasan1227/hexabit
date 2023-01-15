@@ -21,17 +21,17 @@
   gap: 10px;
 }
 
-.footer-heading{
-/* margin-bottom: 10px; */
+.footer-heading {
+  /* margin-bottom: 10px; */
 }
 
-.footer-heading h1{
+.footer-heading h1 {
   /* margin-top: 28px; */
   text-align: center;
   font-size: 50px;
 }
 
-.footer-community{
+.footer-community {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
@@ -39,20 +39,20 @@
   padding-bottom: 22px;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
 }
 
-.footer-founder{
+.footer-founder {
   padding-top: 10px;
   padding-bottom: 22px;
 }
 
-.footer-founder h2{
-margin-bottom: 10px;
+.footer-founder h2 {
+  margin-bottom: 10px;
 }
 
 .footer-top-right {
@@ -66,13 +66,54 @@ margin-bottom: 10px;
   font-size: 34px;
 }
 
-.footer-sub-heading{
+.footer-sub-heading {
   font-size: 18px;
 }
 
 .footer-bottom {
   flex: 1;
-  background-color: aquamarine;
+  color: white;
+}
+
+.footer-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-form-content {
+  position: relative;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.footer-form input{
+  border-radius: 16px 0px 0px 16px;
+}
+
+.footer-form button{
+  border-radius: 0px 16px 16px 0px;
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a{
+  text-decoration: none;
+}
+
+.footer-paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
