@@ -18,6 +18,7 @@ const Newsletter = () => {
             <img src={swipe24} alt='' />
           </div>
         </div>
+
         <div className='col-2'>
           <div className='content'>
             <h1>Logo goes here</h1>
@@ -28,6 +29,7 @@ const Newsletter = () => {
             </h2>
           </div>
         </div>
+
         <div className='col-3'>
           <div className='image-right-top'>
             <img src={swipe22} alt='' />
