@@ -36,7 +36,7 @@ const Video = () => {
     }
 
     return (
-        <div className="video-container">
+        <div className="video-responsive">
             <YouTube
                 videoId="2g811Eo7K8U"
                 opts={opts}
