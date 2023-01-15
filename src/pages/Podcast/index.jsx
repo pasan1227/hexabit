@@ -39,7 +39,7 @@ const Podcast = () => {
       </div>
       <div className='podcast-right'>
         <div className='youtube'>
-          {/* <Youtube embedId='K4TOrB7at0Y' /> */}
+          <Youtube  />
         </div>
         <ButtonTwo className='button' text='SUBSCRIBE' icon='youtube' />
       </div>
