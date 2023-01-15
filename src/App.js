@@ -23,7 +23,7 @@ function App() {
         <Chain />
         <Xplor />
         <Earn />
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Podcast />
       </main>
       <footer>
