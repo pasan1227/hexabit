@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
+import apply from '../../assets/apply.svg';
+import collab from '../../assets/collab.svg';
+import earn from '../../assets/earn.svg';
 import globe from '../../assets/globe-cropped.svg';
-import ButtonTwo from '../../components/Button-2'
-import Step from '../../components/Step'
-import './earn.css'
-import apply from '../../assets/apply.svg'
-import collab from '../../assets/collab.svg'
-import earn from '../../assets/earn.svg'
+import ButtonTwo from '../../components/Button-2';
+import './earn.css';
 
 const Earn = () => {
   return (
