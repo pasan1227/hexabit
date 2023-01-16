@@ -3,9 +3,9 @@ import globe from '../../assets/globe-cropped.svg';
 import ButtonTwo from '../../components/Button-2'
 import Step from '../../components/Step'
 import './earn.css'
-import apply from '../../assets/news svg/apply.svg'
-import collab from '../../assets/news svg/collab.svg'
-import earn from '../../assets/news svg/earn.svg'
+import apply from '../../assets/apply.svg'
+import collab from '../../assets/collab.svg'
+import earn from '../../assets/earn.svg'
 
 const Earn = () => {
   return (
@@ -39,7 +39,7 @@ const Earn = () => {
         </div>
         <div className='right-bottom'>
           <div className='steps'>
-            <Step
+            {/* <Step
               number='1'
               stepName='APPLY'
               icon='fa-regular fa-circle-check'
@@ -53,8 +53,10 @@ const Earn = () => {
               number='3'
               stepName='EARN'
               icon='fa-regular fa-circle-check'
-            />
-            {/* <img src={apply} alt="" /> */}
+            /> */}
+            <img className='step' src={apply} alt="" />
+            <img className='step' src={collab} alt="" />
+            <img className='step' src={earn} alt="" />
           </div>
           <div className='apply-button-earn-two'>
             <ButtonTwo text='APPLY NOW' icon='less-than' />

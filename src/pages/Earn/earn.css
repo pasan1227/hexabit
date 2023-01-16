@@ -86,13 +86,8 @@
 }
 
 .step {
-  border: 1px solid red;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  height: 90px;
-  width: 70px;
+  width: 120px;
+  vertical-align: middle;
 }
 
 .apply-btn {
