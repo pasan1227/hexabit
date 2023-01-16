@@ -36,8 +36,10 @@
 }
 
 .image-media {
+  position: relative;
   height: 700px;
   width: 900px;
+  left: 90px;
   /* margin-top: 200px; */
 }
 

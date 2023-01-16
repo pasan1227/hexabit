@@ -15,7 +15,7 @@ const Grow = () => {
             <span>NE</span>
           </div>
         </div>
-        <p>A free 1-1 consultation with
+        <p className='description'>A free 1-1 consultation with
           Charlie Z to <br />
           discuss your business gameplan in depth.
         </p>

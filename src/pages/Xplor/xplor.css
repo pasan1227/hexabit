@@ -40,9 +40,11 @@
 }
 
 .image-xplor {
+  position: relative;
   height: 700px;
-  width: 900px;
-  margin-top: 300px;
+  width: 1000px;
+  left: 50px;
+  margin-top: 250px;
 }
 
 @media (max-width: 768px) {

@@ -10,11 +10,11 @@ const Chain = () => {
         <div className='heading'>
           <h1>CHAIN</h1>
           <div className='sub-heading'>
-          <p className='hex'/>
+            <p className='hex' />
             <span>NE</span>
           </div>
         </div>
-        <p>
+        <p className='description'>
           Become a player by launching your <br /> blockchain-based project in
           30-90 days. <br />
           Finally, a development team you can trust.

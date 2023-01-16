@@ -8,18 +8,18 @@ const Media = () => {
   return (
     <section className='grow-container' id='grow'>
       <div className='strategy-left'>
-        <div className="heading">
+        <div className='heading'>
           <h1>MEDIA</h1>
           <div className='sub-heading'>
-            <p className='hex'/>
+            <p className='hex' />
             <span>NE</span>
           </div>
         </div>
-        <p>A free 1-1 consultation with
-          Charlie Z to <br />
+        <p className='description'>
+          A free 1-1 consultation with Charlie Z to <br />
           discuss your business gameplan in depth.
         </p>
-        <Button icon='phone-volume' text='SPEAK WITH CHARLIE'/>
+        <Button icon='phone-volume' text='SPEAK WITH CHARLIE' />
       </div>
       <div className='strategy-right'>
         <div className='image-media'>
@@ -27,7 +27,7 @@ const Media = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Media
