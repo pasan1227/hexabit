@@ -10,11 +10,11 @@ const Xplore = () => {
         <div className='heading'>
           <h1>XPLOR</h1>
           <div className='sub-heading'>
-          <p className='hex'/>
+            <p className='hex' />
             <span>NE</span>
           </div>
         </div>
-        <p>
+        <p className='description'>
           Learn the technologies changing our <br /> future + become certified.
           <br /> Blockchain, Crypto, NFTs, Metaverse, AI.
         </p>

@@ -6,6 +6,16 @@
   height: 100vh;
   background-color: black;
   color: white;
+}
+
+.home-container img {
+  width: 800px;
+}
+
+.home-container p {
+  font-size: 35px;
+  font-weight: 600;
+=======
   position: relative;
 }
 
