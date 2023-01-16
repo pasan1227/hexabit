@@ -15,4 +15,22 @@
 .home-container p {
   font-size: 35px;
   font-weight: 600;
+=======
+  position: relative;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0%;
+  padding: 0;
+  z-index: 0;
+}
+
+#tsparticles {
+  background-color: #efefef;
+  /* background-image: url("../media/degradado.svg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
