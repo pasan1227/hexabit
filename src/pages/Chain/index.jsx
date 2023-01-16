@@ -10,7 +10,7 @@ const Chain = () => {
         <div className='heading'>
           <h1>CHAIN</h1>
           <div className='sub-heading'>
-            <span className='o'>O</span>
+          <p className='hex'/>
             <span>NE</span>
           </div>
         </div>

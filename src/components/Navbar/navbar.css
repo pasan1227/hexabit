@@ -113,6 +113,11 @@ body {
   display: flex;
 }
 
+.logo-img{
+  height: 37px;
+  width: 180px;
+}
+
 .Navbar > .nav-items > a {
   color: #ffffff;
   font-size: 16px;

@@ -11,7 +11,7 @@ const Media = () => {
         <div className="heading">
           <h1>MEDIA</h1>
           <div className='sub-heading'>
-            <span className='o'>O</span>
+            <p className='hex'/>
             <span>NE</span>
           </div>
         </div>

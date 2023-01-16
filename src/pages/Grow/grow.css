@@ -24,13 +24,14 @@
   align-items: center;
 }
 
-.heading h1 {
-  font-weight: bold;
+.sub-heading{
+  display: flex;
   align-items: center;
 }
 
-.o {
-  color: red;
+.heading h1 {
+  font-weight: bold;
+  align-items: center;
 }
 
 .strategy-right {

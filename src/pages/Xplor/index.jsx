@@ -10,7 +10,7 @@ const Xplore = () => {
         <div className='heading'>
           <h1>XPLOR</h1>
           <div className='sub-heading'>
-            <span className='o'>O</span>
+          <p className='hex'/>
             <span>NE</span>
           </div>
         </div>

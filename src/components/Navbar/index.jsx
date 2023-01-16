@@ -53,6 +53,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { navLinks } from "../../constants";
+import logo from '../../assets/logo.svg'
 import "./navbar.css";
 
 const Navbar = () => {
@@ -74,7 +75,7 @@ const Navbar = () => {
         offset={-70}
         duration={500}
       >
-        hexabit
+        <img className='logo-img' src={logo} alt="" />
       </Link>
       <div className={`nav-items ${isOpen && "open"}`}>
         {navLinks.map((item) => (

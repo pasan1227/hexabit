@@ -1,3 +1,9 @@
+import img1 from './assets/1.webp'
+import img2 from './assets/2.webp'
+import img3 from './assets/3.webp'
+import img4 from './assets/4.webp'
+
+
 export const navLinks = [
   { label: "GROW", link: "grow" },
   { label: "EARN", link: "earn" },
@@ -51,4 +57,25 @@ export const founderLinks = [
   },
 ]
 
-export const footerHeadings = ['STRATEGY', 'MEDIA', 'CHAIN', 'XPLOR']
+export const footerHeadings = [
+  {
+    id: 1,
+    name: 'STRATEGY',
+    img: img1
+  },
+  {
+    id: 2,
+    name: 'MEDIA',
+    img: img2
+  },
+  {
+    id: 3,
+    name: 'CHAIN',
+    img: img3
+  },
+  {
+    id: 4,
+    name: 'XPLOR',
+    img: img4
+  }
+]

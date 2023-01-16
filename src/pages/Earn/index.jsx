@@ -3,6 +3,9 @@ import globe from '../../assets/globe-cropped.svg';
 import ButtonTwo from '../../components/Button-2'
 import Step from '../../components/Step'
 import './earn.css'
+import apply from '../../assets/news svg/apply.svg'
+import collab from '../../assets/news svg/collab.svg'
+import earn from '../../assets/news svg/earn.svg'
 
 const Earn = () => {
   return (
@@ -51,6 +54,7 @@ const Earn = () => {
               stepName='EARN'
               icon='fa-regular fa-circle-check'
             />
+            {/* <img src={apply} alt="" /> */}
           </div>
           <div className='apply-button-earn-two'>
             <ButtonTwo text='APPLY NOW' icon='less-than' />

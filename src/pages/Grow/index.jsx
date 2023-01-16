@@ -11,7 +11,7 @@ const Grow = () => {
         <div className="heading">
           <h1>STRATEGY</h1>
           <div className='sub-heading'>
-            <span className='o'>O</span>
+            <p className='hex'/>
             <span>NE</span>
           </div>
         </div>
