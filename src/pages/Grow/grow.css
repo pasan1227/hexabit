@@ -71,9 +71,10 @@
     flex: 1;
   }
 
-  .image {
-    height: 700px;
-    width: 800px;
-    margin-top: 25px;
+  .image img {
+    position: relative;
+    width: 400px;
+    bottom: 220px;
+    right: 80px;
   }
 }

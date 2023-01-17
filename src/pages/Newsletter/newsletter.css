@@ -127,14 +127,14 @@
 
   .image-left-top img {
     position: relative;
-    top:750px;
-    left: 90px;
+    top:450px;
+    left: 110px;
     width: 400px;
   }
 
   .image-left-bottom img {
-    top: 450px;
-    left: 110px;
+    top: 820px;
+    right: 110px;
     position: relative;
     width: 400px;
   }
@@ -142,7 +142,7 @@
   .image-right-top  {
     position: relative;
     left: 110px;
-    top: -650px;
+    top: -600px;
     width: 400px;
   }
 
@@ -150,6 +150,6 @@
     position: relative;
     right: 110px;
     width: 400px;
-    bottom: 645px;
+    bottom: 600px;
   }
 }

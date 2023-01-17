@@ -4,7 +4,8 @@ import kim from '../../assets/kim.svg';
 import rayhaan from '../../assets/rayhaan.svg';
 import ButtonTwo from '../../components/Button-2'
 import Youtube from '../../components/Youtube'
-import './podcast.css'
+import podcastlogo from '../../assets/news/podcastlogo.svg';
+import './podcast.css';
 
 const Podcast = () => {
   return (
@@ -12,7 +13,7 @@ const Podcast = () => {
       <div className='podcast-left'>
         <div className='podcast-left-top'>
           <div className='podcast-left-top-content'>
-            <h1>LOGO</h1>
+            <img src={podcastlogo} />
             <h1>
               YOUR GO-TO
               <br />
@@ -39,12 +40,12 @@ const Podcast = () => {
       </div>
       <div className='podcast-right'>
         <div className='youtube'>
-          <Youtube  />
+          <Youtube />
         </div>
         <ButtonTwo className='youtube-button' text='SUBSCRIBE' icon='youtube' />
       </div>
     </section>
   );
-}
+};
 
 export default Podcast

@@ -64,8 +64,10 @@
   }
 
   .image-xplor {
+    position: relative;
+    left: 20px;
     height: 700px;
-    width: 800px;
+    width: 350px;
     margin-top: 25px;
   }
 }
