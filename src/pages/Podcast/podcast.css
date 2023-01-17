@@ -24,6 +24,10 @@
   margin-bottom: 20px;
 }
 
+.podcast-left-top-content img {
+  width: 280px;
+}
+
 .podcast-left-bottom {
   display: flex;
   flex-direction: column;
@@ -122,5 +126,8 @@
   }
   .youtube{
     height: 300px;
+  }
+  .podcast-left-top-content img {
+    width: 150px;
   }
 }

@@ -30,7 +30,7 @@ const Earn = () => {
             ARE YOU ACTIVE <br />
             ON SOCIAL MEDIA?
           </p>
-          <p className='description'>
+          <p className='earn-description'>
             Start earning by joining our affiliate <br />
             program. You'll offer products and <br />
             services made by hexabit.
