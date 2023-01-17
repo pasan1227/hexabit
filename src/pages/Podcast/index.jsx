@@ -1,10 +1,10 @@
-import React from 'react'
-import nick from '../../assets/nick.svg';
+import React from 'react';
 import kim from '../../assets/kim.svg';
-import rayhaan from '../../assets/rayhaan.svg';
-import ButtonTwo from '../../components/Button-2'
-import Youtube from '../../components/Youtube'
 import podcastlogo from '../../assets/news/podcastlogo.svg';
+import nick from '../../assets/nick.svg';
+import rayhaan from '../../assets/rayhaan.svg';
+import ButtonTwo from '../../components/Button-2';
+import Youtube from '../../components/Youtube';
 import './podcast.css';
 
 const Podcast = () => {
@@ -13,7 +13,7 @@ const Podcast = () => {
       <div className='podcast-left'>
         <div className='podcast-left-top'>
           <div className='podcast-left-top-content'>
-            <img src={podcastlogo} />
+            <img src={podcastlogo} alt='' />
             <h1>
               YOUR GO-TO
               <br />

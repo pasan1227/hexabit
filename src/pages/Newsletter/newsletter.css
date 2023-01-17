@@ -127,7 +127,7 @@
 
   .image-left-top img {
     position: relative;
-    top:450px;
+    top: 450px;
     left: 110px;
     width: 400px;
   }
@@ -139,7 +139,7 @@
     width: 400px;
   }
 
-  .image-right-top  {
+  .image-right-top {
     position: relative;
     left: 110px;
     top: -600px;
@@ -151,5 +151,84 @@
     right: 110px;
     width: 400px;
     bottom: 600px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .newsletter-container {
+    height: 100vh;
+    background-color: black;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+  }
+
+  .col-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 350px;
+  }
+
+  .col-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+  }
+
+  .content {
+    color: white;
+    gap: 50px;
+  }
+
+  .content h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    /* margin-top: 30px; */
+  }
+
+  .image-left-top {
+    position: relative;
+    width: 800px;
+    bottom: 95px;
+    z-index: 1;
+  }
+
+  .image-left-bottom {
+    width: 800px;
+    position: relative;
+    bottom: 500px;
+  }
+
+  .image-right-top {
+    position: relative;
+    width: 800px;
+    bottom: 95px;
+    z-index: 1;
+  }
+
+  .image-right-bottom {
+    position: relative;
+    width: 800px;
+    bottom: 500px;
   }
 }

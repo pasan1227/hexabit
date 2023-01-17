@@ -1,5 +1,6 @@
 import React from 'react'
 import img from '../../assets/4.webp'
+import logo from '../../assets/logo.svg'
 import Link from '../../components/Link'
 import { communityLinks, footerHeadings, founderLinks } from '../../constants'
 import './footer.css'
@@ -11,7 +12,7 @@ const Footer = () => {
       <div className='footer-top'>
         <div className='footer-top-left'>
           <div className='footer-heading'>
-            <h1>hexabit</h1>
+            <img src={logo} alt='' />
             <p>
               Hexabit, a long term contributor <br />
               to the development of Web3.

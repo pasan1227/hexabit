@@ -16,8 +16,8 @@ const Particle = () => {
       init={particlesInit}
       options={{
         fullScreen: {
-          enable: false,
-          zIndex: 0,
+          enable: true,
+          zIndex: 1,
         },
         particles: {
           number: {
