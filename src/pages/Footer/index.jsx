@@ -37,7 +37,7 @@ const Footer = () => {
         <div className='footer-top-right'>
           <div className='footer-right-headings'>
             {footerHeadings.map((heading) => (
-              <div className='heading' key={heading.id}>
+              <div className='headings' key={heading.id}>
                 <img src={heading.img} alt="" />
                 <h1>{heading.name}</h1>
                 <div className='footer-sub-heading'>
@@ -46,9 +46,9 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            <div className='heading'>
+            <div className='headings'>
               <img src={img} alt="" />
-              <h1 className='heading-h1'>CHARLIE Z 360</h1>
+              <h1>CHARLIE Z 360</h1>
             </div>
           </div>
         </div>

@@ -30,6 +30,7 @@
   gap: 10px;
 }
 
+
 .footer-heading p {
   /* margin-top: 28px; */
   font-size: 25px;
@@ -76,7 +77,7 @@
 }
 
 .heading-h1 {
-  font-size: 22px;
+  font-size: 34px;
 }
 
 .footer-sub-heading {
@@ -149,6 +150,12 @@
   align-items: center;
 }
 
+.headings{
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
+}
+
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -165,6 +172,7 @@
     text-align: center;
     font-size: 40px;
   }
+
   .footer-form-container {
     display: flex;
     flex-direction: column;
@@ -193,7 +201,7 @@
     top: -100px;
   }
   .footer-right-headings h1 {
-    font-size: 25px;
+    font-size: 5px;
     margin-top: 2px;
   }
   .footer-bottom {
@@ -201,7 +209,7 @@
     bottom: 210px;
   }
   .footer-links {
-    display: flex;
+    display:inline-flex;
     flex-direction: row;
     position: relative;
     top: 0px;
@@ -210,13 +218,15 @@
   .footer-links a {
     color: #555555;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
+    font-size: 15px;
+
   }
   .footer-paragraph {
     color: #555555;
     font-size: 16px;
     position: relative;
-    top: 15px;
+    bottom: 5px;
   }
   .footer-form input {
     border-radius: 16px 0px 0px 16px;
@@ -230,8 +240,15 @@
   }
   .links {
     margin-top: 5px;
+    font-size: 15px;
   }
   .footer-founder {
     margin-top: -20px;
+  }
+  .headings h1{
+    font-size: 25px;
+  }
+  .headings img{
+    width:30px;
   }
 }

@@ -64,7 +64,7 @@
   text-align: center;
 }
 
-.description {
+.earn-description {
   font-size: 30px;
   text-align: center;
   margin-top: 30px;
@@ -136,20 +136,23 @@
   gap: 5px;
   margin-top: 10px;
 }
-.description{
-  margin-top: 10px;
-}
+
 .steps{
   margin-top: 15px;
+  gap: 1px;
 }
 .apply-button-earn-two{
   position: relative;
-  bottom: 15px;
+  bottom: 30px;
 }
 .heading {
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
 }
-
+.earn-description{
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
 }
