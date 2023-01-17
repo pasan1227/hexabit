@@ -130,13 +130,27 @@
   }
   .button {
     position: relative;
-    top: 250px;
+    top: 220px;
   }
   .youtube {
+    margin-top: 10px;
     height: 300px;
+  }
+  .podcast-left-bottom{
+    position: relative;
+    top: -50px;
+  }
+  .podcast-left-top-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .podcast-left-top-content img {
     width: 150px;
+  }
+  .youtube-button{
+    position: relative;
+    bottom: 10px;
   }
 }
 

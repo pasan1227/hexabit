@@ -115,25 +115,27 @@
 
   .content {
     color: white;
-    gap: 15px;
+    gap: 35px;
     padding-top: 130px;
+    align-items: center;
+    justify-content: center;
   }
 
   .content h2 {
-    text-align: center;
     font-weight: 800;
+    text-align: center;
     font-size: 19px;
   }
 
   .image-left-top img {
     position: relative;
-    top: 450px;
+    top: 160px;
     left: 110px;
     width: 400px;
   }
 
   .image-left-bottom img {
-    top: 820px;
+    top: 550px;
     right: 110px;
     position: relative;
     width: 400px;
@@ -142,7 +144,7 @@
   .image-right-top {
     position: relative;
     left: 110px;
-    top: -600px;
+    top: -350px;
     width: 400px;
   }
 
@@ -150,7 +152,7 @@
     position: relative;
     right: 110px;
     width: 400px;
-    bottom: 600px;
+    bottom: 350px;
   }
 }
 
