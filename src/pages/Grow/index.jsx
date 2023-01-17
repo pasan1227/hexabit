@@ -12,7 +12,7 @@ const Grow = () => {
           <h1>STRATEGY</h1>
           <div className='sub-heading'>
             <p className='hex'/>
-            <span>NE</span>
+            <p>NE</p>
           </div>
         </div>
         <p className='description'>A free 1-1 consultation with

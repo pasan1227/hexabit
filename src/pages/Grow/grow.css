@@ -28,9 +28,11 @@
 .sub-heading{
   display: flex;
   align-items: center;
+  font-size: 28px;
 }
 
 .heading h1 {
+  font-size: 72px;
   font-weight: bold;
   align-items: center;
 }
