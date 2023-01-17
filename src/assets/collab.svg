@@ -1,1 +1,28 @@
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 200"><defs><style>.cls-1,.cls-4{fill:#fff;}.cls-2,.cls-6{fill:none;stroke-miterlimit:10;}.cls-2{stroke:#fff;stroke-width:1.89px;}.cls-3,.cls-5{fill:#e02310;}.cls-4{font-size:16.28px;}.cls-4,.cls-5{font-family:OpenSans-ExtraBold, Open Sans;font-weight:800;}.cls-5{font-size:32.64px;}.cls-6{stroke:#e02310;stroke-width:0.54px;}</style></defs><rect class="cls-1" x="24.07" y="110.79" width="63.88" height="5.62"/><rect class="cls-1" x="31.05" y="107.9" width="3.58" height="11.58"/><rect class="cls-1" x="54.22" y="107.9" width="3.58" height="11.58"/><rect class="cls-1" x="77.97" y="107.9" width="3.58" height="11.58"/><rect class="cls-2" x="26.75" y="119.48" width="58.51" height="58.51" rx="5.43"/><polygon class="cls-3" points="47.66 146.12 54.34 145.35 57.01 139.19 53 133.79 46.33 134.56 43.66 140.73 47.66 146.12"/><polygon class="cls-3" points="66.36 146.12 59.68 145.35 57.01 139.19 61.02 133.79 67.69 134.56 70.36 140.73 66.36 146.12"/><polygon class="cls-3" points="69.22 159.26 62.81 157.21 61.38 150.65 66.36 146.12 72.76 148.17 74.19 154.74 69.22 159.26"/><polygon class="cls-3" points="44.8 159.26 51.2 157.21 52.63 150.65 47.66 146.12 41.26 148.17 39.83 154.74 44.8 159.26"/><polygon class="cls-3" points="56.99 167.3 62.81 163.94 62.81 157.21 56.99 153.85 51.2 157.21 51.17 163.94 56.99 167.3"/><text class="cls-4" transform="translate(23.37 91.8)">COLLAB</text><text class="cls-5" transform="translate(47.52 55.96)">2</text><rect class="cls-6" x="10.96" y="12.4" width="88.09" height="175.19" rx="10.03"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 110 200" style="enable-background:new 0 0 110 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:1.89;stroke-miterlimit:10;}
+	.st1{fill:#E02310;}
+	.st2{font-family:'Arial-BoldMT';}
+	.st3{font-size:16.28px;}
+	.st4{font-size:32.64px;}
+	.st5{fill:none;stroke:#E02310;stroke-width:0.54;stroke-miterlimit:10;}
+</style>
+<rect x="24.1" y="110.8" width="63.9" height="5.6"/>
+<rect x="31" y="107.9" width="3.6" height="11.6"/>
+<rect x="54.2" y="107.9" width="3.6" height="11.6"/>
+<rect x="78" y="107.9" width="3.6" height="11.6"/>
+<path class="st0" d="M32.2,119.5h47.6c3,0,5.4,2.4,5.4,5.4v47.7c0,3-2.4,5.4-5.4,5.4H32.2c-3,0-5.4-2.4-5.4-5.4v-47.7
+	C26.8,121.9,29.2,119.5,32.2,119.5z"/>
+<polygon class="st1" points="47.7,146.1 54.3,145.4 57,139.2 53,133.8 46.3,134.6 43.7,140.7 "/>
+<polygon class="st1" points="66.4,146.1 59.7,145.4 57,139.2 61,133.8 67.7,134.6 70.4,140.7 "/>
+<polygon class="st1" points="69.2,159.3 62.8,157.2 61.4,150.6 66.4,146.1 72.8,148.2 74.2,154.7 "/>
+<polygon class="st1" points="44.8,159.3 51.2,157.2 52.6,150.6 47.7,146.1 41.3,148.2 39.8,154.7 "/>
+<polygon class="st1" points="57,167.3 62.8,163.9 62.8,157.2 57,153.9 51.2,157.2 51.2,163.9 "/>
+<text transform="matrix(1 0 0 1 23.37 91.8)" class="st2 st3">COLLAB</text>
+<text transform="matrix(1 0 0 1 47.52 55.96)" class="st1 st2 st4">2</text>
+<path class="st5" d="M21,12.4h68c5.5,0,10,4.5,10,10v155.1c0,5.5-4.5,10-10,10H21c-5.5,0-10-4.5-10-10V22.4
+	C11,16.9,15.5,12.4,21,12.4z"/>
+</svg>

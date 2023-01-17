@@ -39,7 +39,7 @@ const Footer = () => {
             {footerHeadings.map((heading) => (
               <div className='heading' key={heading.id}>
                 <img src={heading.img} alt="" />
-                <h1 className='heading-h1'>{heading.name}</h1>
+                <h1>{heading.name}</h1>
                 <div className='footer-sub-heading'>
                   <p className='hex' />
                   <span>NE</span>

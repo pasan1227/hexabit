@@ -30,10 +30,6 @@
   gap: 10px;
 }
 
-.footer-heading {
-  /* margin-bottom: 10px; */
-}
-
 .footer-heading p {
   /* margin-top: 28px; */
   font-size: 25px;
@@ -80,7 +76,7 @@
 }
 
 .heading-h1 {
-  font-size: 34px;
+  font-size: 22px;
 }
 
 .footer-sub-heading {
