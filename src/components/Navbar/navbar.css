@@ -102,6 +102,8 @@ body {
 }
 
 .Navbar > .nav-logo {
+  position: relative;
+  right: 55px;
   font-size: 1.5rem;
   font-weight: bold;
   padding: 0 25px;
@@ -163,10 +165,10 @@ body {
     top: 60px;
     display: flex;
     flex-direction: column;
-    background: #6466698a;
+    background: #0000008a;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     transform: translateX(-100%);
     transition: all .45s;
   }
