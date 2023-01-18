@@ -15,22 +15,22 @@ export const communityLinks = [
   {
     id: 1,
     icon: 'tiktok',
-    to: 'https://www.tiktok.com/'
+    to: 'https://www.tiktok.com/@hexabit.one?_t=8XZo5T9ll2M&_r=1'
   },
   {
     id: 2,
     icon: 'linkedin',
-    to: 'https://www.linkedin.com/'
+    to: 'https://www.linkedin.com/company/hexabit-one/'
   },
   {
     id: 3,
     icon: 'twitter',
-    to: 'https://www.twitter.com/'
+    to: 'https://twitter.com/hexabitofficial?s=11&t=5wqao44Z953ZmJkns7hQ0Q'
   },
   {
     id: 4,
     icon: 'instagram',
-    to: 'https://www.instagram.com/'
+    to: 'https://instagram.com/hexabit.one?igshid=MDM4ZDc5MmU='
   },
 ]
 
@@ -38,22 +38,22 @@ export const founderLinks = [
   {
     id: 1,
     icon: 'spotify',
-    to: 'https://www.spotify.com/'
+    to: 'https://open.spotify.com/show/6ovi8kwvRdlGRBHJmibDnX?si=Crh3rPsRS3KEVLOHOr5WSg'
   },
   {
     id: 2,
     icon: 'youtube',
-    to: 'https://www.youtube.com/'
+    to: 'https://youtube.com/channel/UCdefUN_28NwS2TFVCZWO2eQ'
   },
   {
     id: 3,
     icon: 'linkedin',
-    to: 'https://www.linkedin.com/'
+    to: 'https://www.linkedin.com/company/hexabit-one/'
   },
   {
     id: 4,
     icon: 'twitter',
-    to: 'https://www.twitter.com/'
+    to: 'https://twitter.com/hexabitofficial?s=11&t=5wqao44Z953ZmJkns7hQ0Q'
   },
 ]
 
