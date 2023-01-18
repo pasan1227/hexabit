@@ -4,6 +4,7 @@ import swipe22 from '../../assets/newsletters/swipe22.svg';
 import swipe23 from '../../assets/newsletters/swipe23.svg';
 import swipe24 from '../../assets/newsletters/swipe24.svg';
 import swipe25 from '../../assets/newsletters/swipe25.svg';
+import newsLogo from '../../assets/news-logo.svg';
 import ButtonTwo from '../../components/Button-2';
 
 const Newsletter = () => {
@@ -21,7 +22,7 @@ const Newsletter = () => {
 
         <div className='col-2'>
           <div className='content'>
-            <h1>Logo goes here</h1>
+            <img src={newsLogo} alt="" />
             <ButtonTwo text='CLICK TO READ' icon='less-than' />
             <h2>
               THE MOST UP-TO-DATE NEWS <br />

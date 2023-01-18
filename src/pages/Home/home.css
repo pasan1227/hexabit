@@ -25,15 +25,16 @@ canvas {
   position: absolute;
   top: 0%;
   padding: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
-#tsparticles {
-  background-color: #efefef;
-  /* background-image: url("../media/degradado.svg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+.particle-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
