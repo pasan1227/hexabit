@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link as FooterLink } from 'react-scroll'
 import img from '../../assets/4.webp'
 import logo from '../../assets/logo.svg'
 import Link from '../../components/Link'
@@ -40,7 +41,15 @@ const Footer = () => {
             {footerHeadings.map((heading) => (
               <div className='headings' key={heading.id}>
                 <img src={heading.img} alt="" />
-                <h1>{heading.name}</h1>
+                <FooterLink
+                  activeClass="active"
+                  className='footer-link-a'
+                  to={heading.to}
+                  spy={true}
+                  smooth={true}
+                  offset={-60}
+                  duration={500}
+                >{heading.name}</FooterLink>
                 <div className='footer-sub-heading'>
                   <p className='hex' />
                   <span>NE</span>

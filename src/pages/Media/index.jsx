@@ -6,7 +6,7 @@ import './media.css'
 
 const Media = () => {
   return (
-    <section className='grow-container' id='grow'>
+    <section className='grow-container' id='media'>
       <div className='strategy-left'>
         <div className='heading'>
           <h1>MEDIA</h1>
