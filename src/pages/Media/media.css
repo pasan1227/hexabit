@@ -1,10 +1,11 @@
-.grow-container {
+.media-container {
   display: flex;
   background-color: #fffff5;
   height: 100vh;
 }
 
-.strategy-left {
+.media-left {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -12,6 +13,7 @@
   align-items: center;
   gap: 10px;
   margin-top: 100px;
+  left: 123px;
 }
 
 .heading {
@@ -29,33 +31,50 @@
   color: red;
 }
 
-.strategy-right {
+.media-right {
   display: flex;
   flex: 2;
   /* justify-content: center; */
 }
 
-.image-media {
+.media-center{
   position: relative;
-  height: 700px;
-  width: 900px;
-  left: 90px;
+  top: 400px;
+  left: 200px;
+  border: 2px solid red;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  font-size: 25px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(219, 219, 219));
+}
+
+.image-media img{
+  position: relative;
+  bottom: 80px;
+  right: 50px;
+  height: 800px;
+  width: 800px;
   /* margin-top: 200px; */
 }
 
+.description{
+  text-align: center;
+}
+
 @media (max-width: 768px) {
-  .grow-container {
+  .media-container {
     flex-direction: column;
     height: 80vh;
   }
 
-  .strategy-left {
+  .media-left {
     flex: 1;
     margin-top: 65px;
     margin-bottom: 65px;
   }
 
-  .strategy-right {
+  .media-right {
     flex: 1;
   }
 
@@ -69,13 +88,13 @@
 }
 
 @media (min-width: 1201px) {
-  .grow-container {
+  .media-container {
     display: flex;
     background-color: #fffff5;
     height: 100vh;
   }
 
-  .strategy-left {
+  .media-left {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -100,7 +119,7 @@
     color: red;
   }
 
-  .strategy-right {
+  .media-right {
     display: flex;
     flex: 2;
     /* justify-content: center; */

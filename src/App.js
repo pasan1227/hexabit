@@ -1,14 +1,15 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Chain from "./pages/Chain";
+import FullPageScroll from './FullPageScroll';
+import Chain from './pages/Chain';
 import Earn from "./pages/Earn";
+import Footer from "./pages/Footer";
 import Grow from "./pages/Grow";
 import Home from "./pages/Home";
 import Media from "./pages/Media";
 import Newsletter from "./pages/Newsletter";
-import Podcast from "./pages/Podcast";
-import Xplore from "./pages/Xplor";
-import Footer from "./pages/Footer";
+import Podcast from './pages/Podcast';
+import Xplor from './pages/Xplor';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Grow />
         <Media />
         <Chain />
-        <Xplore />
+        <Xplor />
         <Earn />
         <Newsletter />
         <Podcast />
