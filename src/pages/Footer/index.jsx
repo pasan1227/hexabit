@@ -2,6 +2,7 @@ import React from 'react'
 import { Link as FooterLink } from 'react-scroll'
 import img from '../../assets/4.webp'
 import logo from '../../assets/logo.svg'
+import EmailForm from '../../components/Form'
 import Link from '../../components/Link'
 import { communityLinks, footerHeadings, founderLinks } from '../../constants'
 import './footer.css'
@@ -64,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer-bottom'>
-        <div className='footer-form-container'>
+        {/* <div className='footer-form-container'>
           <div className='footer-form-content'>
             <h2>CHARLIE'S MORNING BREW</h2>
             <div className='footer-form'>
@@ -74,19 +75,20 @@ const Footer = () => {
               </form>
             </div>
           </div>
-          <div className='footer-links'>
-            <a href=''>FAQs</a>
-            <a href=''>Chat with us</a>
-            <a href=''>Terms and conditions</a>
-            <a href=''>Privacy policy</a>
-            <a href=''>Join our team</a>
-          </div>
-          <div className='footer-paragraph'>
-            <p>From Austin TX the new Sillicon Valley to the world ❤</p>
-            <p>
-              &copy;{new Date().getFullYear()} Hexabit Inc. All Rights Reserved.
-            </p>
-          </div>
+        </div> */}
+        <EmailForm/>
+        <div className='footer-links'>
+          <a href=''>FAQs</a>
+          <a href=''>Chat with us</a>
+          <a href=''>Terms and conditions</a>
+          <a href=''>Privacy policy</a>
+          <a href=''>Join our team</a>
+        </div>
+        <div className='footer-paragraph'>
+          <p>From Austin TX the new Sillicon Valley to the world ❤</p>
+          <p>
+            &copy;{new Date().getFullYear()} Hexabit Inc. All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>
