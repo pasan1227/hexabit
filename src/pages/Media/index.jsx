@@ -1,6 +1,7 @@
 import React from 'react'
 import media from '../../assets/media.svg'
 import Button from '../../components/Button'
+import SliderDots from '../../components/Page-navigator'
 import './media.css'
 
 
