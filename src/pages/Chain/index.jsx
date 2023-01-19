@@ -19,7 +19,7 @@ const Chain = () => {
           30-90 days. <br />
           Finally, a development team you can trust.
         </p>
-        <Button icon='wrench' text='SPEAK WITH CHARLIE' />
+        <Button icon='wrench' text='GET ON CHAIN' />
       </div>
       <div className='strategy-right'>
         <div className='image-chain'>

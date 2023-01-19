@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, { useEffect, useRef, useState } from 'react'
 import strategy from '../../assets/strategy.svg'
 import Button from '../../components/Button'
@@ -58,9 +59,34 @@ const Grow = () => {
                 target: schedulingButtonRef.current,
               });
             }
-          }} />
-          <div ref={schedulingButtonRef}></div>
-        
+          }}
+          // onClick={() => {
+          //   if (!clicked) {
+          //     setClicked(true);
+          //     if (typeof calendar !== 'undefined') {
+          //       calendar.schedulingButton.load({
+          //         url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
+          //         color: '#039BE5',
+          //         label: 'Book an appointment',
+          //         target: schedulingButtonRef.current,
+          //       });
+          //     } else {
+          //       setTimeout(() => {
+          //         if (typeof calendar !== 'undefined') {
+          //           calendar.schedulingButton.load({
+          //             url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
+          //             color: '#039BE5',
+          //             label: 'Book an appointment',
+          //             target: schedulingButtonRef.current,
+          //           });
+          //         }
+          //       }, 500);
+          //     }
+          //   }
+          // }}
+        />
+        <div ref={schedulingButtonRef}></div>
+
       </div>
       <div className='strategy-right'>
         <div className='image'>

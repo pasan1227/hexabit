@@ -2,7 +2,6 @@ import React from 'react';
 import logo from '../../assets/logo.svg';
 import square from '../../assets/square.png';
 import './home.css';
-import ParticleBackground from '../../components/Particle'
 
 const Home = () => {
   return (
@@ -15,7 +14,7 @@ const Home = () => {
         id='tsparticles'>
         <Particle />
       </canvas> */}
-      <img src={square} alt="" className="square-bg" id="head-square" style={{opacity: 1, visibility: 'inherit', transform: 'translate(0px, 0px)'}}/>
+        <img src={square} alt="" className="square-bg" id="head-square" style={{ opacity: 1, visibility: 'inherit', transform: 'translate(0px, 0px)' }} />
         <img src={logo} alt='' />
         <p>WHERE DIGITAL ASSETS MEET BLOCKCHAIN TECH</p>
         <div class="field">

@@ -11,9 +11,9 @@ const ParticleBackground = () => {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
+    // const particlesLoaded = useCallback(async container => {
+    //     await console.log(container);
+    // }, []);
 
     return (
       <Particles
@@ -22,7 +22,7 @@ const ParticleBackground = () => {
 
       options={{
         "fullScreen": {
-            "enable": true,
+            "enable": false,
             "zIndex": -1
         },
         "particles": {
