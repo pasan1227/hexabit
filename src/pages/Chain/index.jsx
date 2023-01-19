@@ -5,7 +5,7 @@ import './chain.css';
 
 const Chain = () => {
   return (
-    <section className='grow-container' id='grow'>
+    <section className='grow-container' id='chain'>
       <div className='strategy-left'>
         <div className='heading'>
           <h1>CHAIN</h1>

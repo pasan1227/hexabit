@@ -5,7 +5,7 @@ import './xplor.css';
 
 const Xplore = () => {
   return (
-    <section className='grow-container' id='grow'>
+    <section className='grow-container' id='xplor'>
       <div className='strategy-left'>
         <div className='heading'>
           <h1>XPLOR</h1>

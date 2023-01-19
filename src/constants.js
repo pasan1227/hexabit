@@ -61,21 +61,25 @@ export const footerHeadings = [
   {
     id: 1,
     name: 'STRATEGY',
-    img: img1
+    img: img1,
+    to: "grow"
   },
   {
     id: 2,
     name: 'MEDIA',
-    img: img2
+    img: img2,
+    to: "media"
   },
   {
     id: 3,
     name: 'CHAIN',
-    img: img3
+    img: img3,
+    to: "chain"
   },
   {
     id: 4,
     name: 'XPLOR',
-    img: img4
+    img: img4,
+    to: "xplor"
   }
 ]

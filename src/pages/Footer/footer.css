@@ -75,6 +75,11 @@
   margin-top: 100px;
 }
 
+.footer-top-right a{
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .heading-h1 {
   font-size: 34px;
 }
@@ -106,8 +111,8 @@
   display: flex;
   width: 950px;
   align-items: center;
-  padding: 25px;
-  gap: 10px;
+  padding: 5px;
+  gap: 5px;
   border-radius: 30px 0px 30px 0px;
 }
 
@@ -247,6 +252,7 @@
   .headings h1 {
     font-size: 25px;
   }
+
   .headings img {
     width: 30px;
   }
@@ -362,7 +368,7 @@
     position: relative;
     border: 1px solid white;
     display: flex;
-    width: 950px;
+    width: 1200px;
     align-items: center;
     justify-content: center;
     padding: 15px;
@@ -378,12 +384,13 @@
 
   .footer-form input {
     border-radius: 16px 0px 0px 16px;
-    width: 300px;
+    width: 500px;
     padding: 10px;
   }
 
   .footer-form button {
     padding: 10px;
+    width: 200px;
     border-radius: 0px 16px 16px 0px;
   }
   .footer-links {
