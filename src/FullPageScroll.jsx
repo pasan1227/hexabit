@@ -1,8 +1,9 @@
-import FullPage, { FullpageSection, FullPageSections } from '@ap.cx/react-fullpage'
+import FullPage, { FullpageSection, FullPageSections , } from '@ap.cx/react-fullpage'
 import React from 'react'
-import { Footer } from 'react-fullpage'
+import Navbar from './components/Navbar'
 import Chain from './pages/Chain'
 import Earn from './pages/Earn'
+import Footer from './pages/Footer'
 import Grow from './pages/Grow'
 import Home from './pages/Home'
 import Media from './pages/Media'
@@ -13,6 +14,7 @@ import Xplore from './pages/Xplor'
 const FullPageScroll = () => {
   return (
     <FullPage>
+      <Navbar/>
       <FullPageSections>
         <FullpageSection >
           <Home />

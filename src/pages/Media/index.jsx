@@ -6,8 +6,8 @@ import './media.css'
 
 const Media = () => {
   return (
-    <section className='grow-container' id='grow'>
-      <div className='strategy-left'>
+    <section className='media-container' id='media'>
+      <div className='media-left'>
         <div className='heading'>
           <h1>MEDIA</h1>
           <div className='sub-heading'>
@@ -16,12 +16,22 @@ const Media = () => {
           </div>
         </div>
         <p className='description'>
-          A free 1-1 consultation with Charlie Z to <br />
-          discuss your business gameplan in depth.
+          We'll accelerate your community <br />
+          growth on social media by leveraging <br />
+          the right branding and marketing <br />
+          strategies.
         </p>
         <Button icon='phone-volume' text='LEVEL UP MY BRAND' />
       </div>
-      <div className='strategy-right'>
+      <div className='media-center'>
+        <p>
+          Our team enhances your brand <br />
+          identity to make your message <br />
+          relevant and attractive for your <br />
+          targeted audience.
+        </p>
+      </div>
+      <div className='media-right'>
         <div className='image-media'>
           <img src={media} alt='' />
         </div>
