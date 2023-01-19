@@ -8,6 +8,7 @@ import './media.css'
 const Media = () => {
   return (
     <section className='media-container' id='media'>
+      <SliderDots />
       <div className='media-left'>
         <div className='heading'>
           <h1>MEDIA</h1>

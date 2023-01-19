@@ -34,9 +34,17 @@ function SliderDots() {
     <div className="slider__dots">
       <a href="#" className="slider__indicator slider__indicator--right"></a>
       {pages.map((page, index) => (
-        <Link key={page.id} to={page.id} className={`slider__dot dot-${index}`} data-pos={index}>
+        <Link
+          key={page.id}
+          to={page.id}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className={`slider__dot dot-${index}`}
+          data-pos={index}>
           <div style={{ alignSelf: 'center' }}>
-            <img src={page.icon} alt={page.alt}  style={{ width: '48px', height: '48px' }}/>
+            <img src={page.icon} alt={page.alt} style={{ width: '48px', height: '48px' }} />
           </div>
         </Link>
       ))}
