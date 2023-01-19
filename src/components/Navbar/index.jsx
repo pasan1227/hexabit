@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link} from "react-scroll";
+import { Link } from "react-scroll";
 import logo from '../../assets/logo.svg';
 import { navLinks } from "../../constants";
 import "./navbar.css";
@@ -26,8 +26,9 @@ const Navbar = () => {
         <img className='logo-img' src={logo} alt="" />
       </Link>
       <div className={`nav-items ${isOpen && "open"}`}>
-        {navLinks.map((item) => (
+        {navLinks.map((item, i) => (
           <Link
+            key={i}
             activeClass="active"
             to={item.link}
             spy={true}
