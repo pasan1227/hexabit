@@ -1,4 +1,3 @@
-import FullPage from 'react-fullpage';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import FullPageScroll from './FullPageScroll';
@@ -24,7 +23,7 @@ function App() {
         <Grow />
         <Media />
         <Chain />
-        <Xplore />
+        <Xplor />
         <Earn />
         <Newsletter />
         <Podcast />

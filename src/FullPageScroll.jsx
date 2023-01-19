@@ -1,9 +1,6 @@
 import FullPage, { FullpageSection, FullPageSections , } from '@ap.cx/react-fullpage'
 import React from 'react'
-<<<<<<< HEAD
 import Navbar from './components/Navbar'
-=======
->>>>>>> 4e24a0076900f53e876e7eb488b49880c7b63248
 import Chain from './pages/Chain'
 import Earn from './pages/Earn'
 import Footer from './pages/Footer'
