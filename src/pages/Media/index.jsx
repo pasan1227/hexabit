@@ -7,8 +7,6 @@ import './media.css'
 
 const Media = () => {
   return (
-    <section className='media-container' id='media'>
-      <div className='media-left'>
     <section className='grow-container' id='media'>
       <SliderDots />
       <div className='strategy-left'>
