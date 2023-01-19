@@ -7,20 +7,23 @@ import './xplor.css';
 const Xplore = () => {
   return (
     <section className='grow-container' id='xplor'>
-      <SliderDots />
       <div className='strategy-left'>
-        <div className='heading'>
-          <h1>XPLOR</h1>
-          <div className='sub-heading'>
-            <p className='hex' />
-            <span>NE</span>
+        <SliderDots />
+        <div className='strategy-left-content'>
+          <div className='heading'>
+            <h1>XPLOR</h1>
+            <div className='sub-heading'>
+              <p className='hex' />
+              <span>NE</span>
+            </div>
           </div>
+          <p className='description'>
+            Learn the technologies changing our <br /> future + become
+            certified.
+            <br /> Blockchain, Crypto, NFTs, Metaverse, AI.
+          </p>
+          <Button icon='brain' text='START LEARNING' />
         </div>
-        <p className='description'>
-          Learn the technologies changing our <br /> future + become certified.
-          <br /> Blockchain, Crypto, NFTs, Metaverse, AI.
-        </p>
-        <Button icon='brain' text='START LEARNING' />
       </div>
       <div className='strategy-right'>
         <div className='image-xplor'>

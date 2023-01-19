@@ -1,8 +1,9 @@
 .slider__dots {
   display: flex;
-  position: absolute;
-  bottom: 2.5em;
-  left: 50%;
+  flex-direction: column;
+  position: relative;
+  top: 500px;
+  right: 200px;
   transform: translateX(-50%);
 }
 .slider__dot {
@@ -19,7 +20,7 @@
   margin: 0px 0.5em;
   padding: 0px;
   width: 3em;
-  height: 3em;
+  height: 4em;
   background-repeat: no-repeat;
   color: #000;
   text-decoration: none;
@@ -27,7 +28,7 @@
 }
 .slider__indicator {
   position: absolute;
-  background-image: url('https://hexabit.one/assets/media/bg-dots-slider-container.svg');
+  background-image: url('../../assets/slider-container.svg');
   width: auto;
 }
 .slider__indicator--left {

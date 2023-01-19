@@ -10,7 +10,15 @@
   flex: 1;
   height: 100vh;
   align-items: center;
-  margin-top: 100px;
+}
+
+.strategy-left-content{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 220px;
+  align-items: center;
+  justify-content: center;
 }
 
 .description {

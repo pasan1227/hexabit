@@ -8,22 +8,24 @@ import './media.css'
 const Media = () => {
   return (
     <section className='media-container' id='media'>
-      <SliderDots />
       <div className='media-left'>
-        <div className='heading'>
-          <h1>MEDIA</h1>
-          <div className='sub-heading'>
-            <p className='hex' />
-            <span>NE</span>
+        <SliderDots />
+        <div className='media-left-content'>
+          <div className='heading'>
+            <h1>MEDIA</h1>
+            <div className='sub-heading'>
+              <p className='hex' />
+              <span>NE</span>
+            </div>
           </div>
+          <p className='description'>
+            We'll accelerate your community <br />
+            growth on social media by leveraging <br />
+            the right branding and marketing <br />
+            strategies.
+          </p>
+          <Button icon='phone-volume' text='LEVEL UP MY BRAND' />
         </div>
-        <p className='description'>
-          We'll accelerate your community <br />
-          growth on social media by leveraging <br />
-          the right branding and marketing <br />
-          strategies.
-        </p>
-        <Button icon='phone-volume' text='LEVEL UP MY BRAND' />
       </div>
       <div className='media-center'>
         <p>

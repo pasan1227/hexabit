@@ -34,61 +34,38 @@ const Grow = () => {
 
   return (
     <section className='grow-container' id='grow'>
-      <SliderDots />
       <div className='strategy-left'>
-        <div className="heading">
-          <h1>STRATEGY</h1>
-          <div className='sub-heading'>
-            <p className='hex' />
-            <p>NE</p>
+        <SliderDots />
+        <div className='strategy-left-content'>
+          <div className='heading'>
+            <h1>STRATEGY</h1>
+            <div className='sub-heading'>
+              <p className='hex' />
+              <p>NE</p>
+            </div>
           </div>
+          <p className='description'>
+            A free 1-1 consultation with Charlie Z to <br />
+            discuss your business gameplan in depth.
+          </p>
+          <Button
+            // ref={schedulingButtonRef}
+            icon='phone-volume'
+            text='SPEAK WITH CHARLIE'
+            onClick={() => {
+              if (!clicked && loaded) {
+                setClicked(true);
+                calendar.schedulingButton.load({
+                  url: `https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true`,
+                  color: '#039BE5',
+                  label: 'Book an appointment',
+                  target: schedulingButtonRef.current,
+                });
+              }
+            }}
+          />
+          <div ref={schedulingButtonRef}></div>
         </div>
-        <p className='description'>A free 1-1 consultation with
-          Charlie Z to <br />
-          discuss your business gameplan in depth.
-        </p>
-        <Button
-          // ref={schedulingButtonRef} 
-          icon='phone-volume'
-          text='SPEAK WITH CHARLIE'
-          onClick={() => {
-            if (!clicked && loaded) {
-              setClicked(true)
-              calendar.schedulingButton.load({
-                url: `https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true`,
-                color: '#039BE5',
-                label: 'Book an appointment',
-                target: schedulingButtonRef.current,
-              });
-            }
-          }}
-        // onClick={() => {
-        //   if (!clicked) {
-        //     setClicked(true);
-        //     if (typeof calendar !== 'undefined') {
-        //       calendar.schedulingButton.load({
-        //         url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
-        //         color: '#039BE5',
-        //         label: 'Book an appointment',
-        //         target: schedulingButtonRef.current,
-        //       });
-        //     } else {
-        //       setTimeout(() => {
-        //         if (typeof calendar !== 'undefined') {
-        //           calendar.schedulingButton.load({
-        //             url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
-        //             color: '#039BE5',
-        //             label: 'Book an appointment',
-        //             target: schedulingButtonRef.current,
-        //           });
-        //         }
-        //       }, 500);
-        //     }
-        //   }
-        // }}
-        />
-        <div ref={schedulingButtonRef}></div>
-
       </div>
       <div className='strategy-right'>
         <div className='image'>
@@ -96,7 +73,7 @@ const Grow = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Grow
