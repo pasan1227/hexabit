@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import strategy from '../../assets/strategy.svg'
 import Button from '../../components/Button'
+import SliderDots from '../../components/Page-navigator'
 import './grow.css'
 
 
@@ -33,6 +34,7 @@ const Grow = () => {
 
   return (
     <section className='grow-container' id='grow'>
+      <SliderDots />
       <div className='strategy-left'>
         <div className="heading">
           <h1>STRATEGY</h1>
@@ -60,30 +62,30 @@ const Grow = () => {
               });
             }
           }}
-          // onClick={() => {
-          //   if (!clicked) {
-          //     setClicked(true);
-          //     if (typeof calendar !== 'undefined') {
-          //       calendar.schedulingButton.load({
-          //         url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
-          //         color: '#039BE5',
-          //         label: 'Book an appointment',
-          //         target: schedulingButtonRef.current,
-          //       });
-          //     } else {
-          //       setTimeout(() => {
-          //         if (typeof calendar !== 'undefined') {
-          //           calendar.schedulingButton.load({
-          //             url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
-          //             color: '#039BE5',
-          //             label: 'Book an appointment',
-          //             target: schedulingButtonRef.current,
-          //           });
-          //         }
-          //       }, 500);
-          //     }
-          //   }
-          // }}
+        // onClick={() => {
+        //   if (!clicked) {
+        //     setClicked(true);
+        //     if (typeof calendar !== 'undefined') {
+        //       calendar.schedulingButton.load({
+        //         url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
+        //         color: '#039BE5',
+        //         label: 'Book an appointment',
+        //         target: schedulingButtonRef.current,
+        //       });
+        //     } else {
+        //       setTimeout(() => {
+        //         if (typeof calendar !== 'undefined') {
+        //           calendar.schedulingButton.load({
+        //             url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PWzspzhjvQKWugLhe51ZQ49Pjdd28T_PD5xdknEMcZtYTqprs8HpdSTEepcGfMw0j_Ozm-vs9?gv=true',
+        //             color: '#039BE5',
+        //             label: 'Book an appointment',
+        //             target: schedulingButtonRef.current,
+        //           });
+        //         }
+        //       }, 500);
+        //     }
+        //   }
+        // }}
         />
         <div ref={schedulingButtonRef}></div>
 

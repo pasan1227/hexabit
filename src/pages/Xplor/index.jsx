@@ -1,11 +1,13 @@
 import React from 'react';
 import Xplor from '../../assets/Xplor.svg';
 import Button from '../../components/Button';
+import SliderDots from '../../components/Page-navigator';
 import './xplor.css';
 
 const Xplore = () => {
   return (
     <section className='grow-container' id='xplor'>
+      <SliderDots />
       <div className='strategy-left'>
         <div className='heading'>
           <h1>XPLOR</h1>

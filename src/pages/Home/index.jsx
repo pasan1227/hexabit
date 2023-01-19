@@ -17,8 +17,8 @@ const Home = () => {
         <img src={square} alt="" className="square-bg" id="head-square" style={{ opacity: 1, visibility: 'inherit', transform: 'translate(0px, 0px)' }} />
         <img src={logo} alt='' />
         <p>WHERE DIGITAL ASSETS MEET BLOCKCHAIN TECH</p>
-        <div class="field">
-          <div class="mouse"></div>
+        <div className="field">
+          <div className="mouse"></div>
         </div>
       </div>
     </section>

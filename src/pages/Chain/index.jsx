@@ -1,11 +1,13 @@
 import React from 'react';
 import chain from '../../assets/chain.svg';
 import Button from '../../components/Button';
+import SliderDots from '../../components/Page-navigator';
 import './chain.css';
 
 const Chain = () => {
   return (
     <section className='grow-container' id='chain'>
+      <SliderDots />
       <div className='strategy-left'>
         <div className='heading'>
           <h1>CHAIN</h1>

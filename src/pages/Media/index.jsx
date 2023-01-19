@@ -1,6 +1,7 @@
 import React from 'react'
 import media from '../../assets/media.svg'
 import Button from '../../components/Button'
+import SliderDots from '../../components/Page-navigator'
 import './media.css'
 
 
@@ -8,6 +9,9 @@ const Media = () => {
   return (
     <section className='media-container' id='media'>
       <div className='media-left'>
+    <section className='grow-container' id='media'>
+      <SliderDots />
+      <div className='strategy-left'>
         <div className='heading'>
           <h1>MEDIA</h1>
           <div className='sub-heading'>

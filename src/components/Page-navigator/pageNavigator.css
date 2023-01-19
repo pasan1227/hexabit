@@ -1,0 +1,78 @@
+.slider__dots {
+  display: flex;
+  position: absolute;
+  bottom: 2.5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider__dot {
+  opacity: 0.5;
+  transition: all 0.5s ease-in;
+}
+.slider__dot:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+.slider__dot,
+.slider__indicator {
+  display: flex;
+  margin: 0px 0.5em;
+  padding: 0px;
+  width: 3em;
+  height: 3em;
+  background-repeat: no-repeat;
+  color: #000;
+  text-decoration: none;
+  place-content: center;
+}
+.slider__indicator {
+  position: absolute;
+  background-image: url('https://hexabit.one/assets/media/bg-dots-slider-container.svg');
+  width: auto;
+}
+.slider__indicator--left {
+  transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15),
+    right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+.slider__indicator--right {
+  transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15),
+    right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+.slider[data-pos='0'] .slider__indicator {
+  left: 0em;
+  right: 12em;
+  display: flex;
+  position: fixed;
+  background-position-y: center;
+}
+.slider[data-pos='0'] .dot-0 {
+  opacity: 1;
+}
+.slider[data-pos='1'] .slider__indicator {
+  left: 4em;
+  right: 8em;
+}
+.slider[data-pos='1'] .dot-1 {
+  opacity: 1;
+}
+.slider[data-pos='2'] .slider__indicator {
+  left: 8em;
+  right: 4em;
+}
+.slider[data-pos='2'] .dot-2 {
+  opacity: 1;
+}
+.slider[data-pos='3'] .slider__indicator {
+  left: 12em;
+  right: 0em;
+}
+.slider[data-pos='3'] .dot-3 {
+  opacity: 1;
+}
+.slider[data-pos='4'] .slider__indicator {
+  left: 16em;
+  right: 0em;
+}
+.slider[data-pos='4'] .dot-4 {
+  opacity: 1;
+}
